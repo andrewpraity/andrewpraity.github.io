@@ -26,7 +26,7 @@ document.getElementById('ucapan').innerHTML = ucapan;
         fetch('https://api.github.com/repos/andrewpraity/andrewpraity.github.io/issues', {
             method: 'GET',
             headers: {
-                'Authorization': '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'
+                'Authorization': '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'
             }
         })
         .then(response => response.json())
@@ -94,7 +94,7 @@ document.getElementById('ucapan').innerHTML = ucapan;
             fetch('https://api.github.com/repos/andrewpraity/andrewpraity.github.io/issues', {
                 method: 'POST',
                 headers: {
-                    'Authorization': 'token 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',
+                    'Authorization': 'token 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',
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify(data)
